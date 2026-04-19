@@ -1,0 +1,39 @@
+(cram
+ (deps
+  ../../src/infer.exe
+  ; ../../src/infer.bc
+  ; jam-engine-prepared/cfg.json
+  ; jam-engine-prepared/tenv.json
+  cfg.json
+  tenv.json
+  ;
+  ))
+
+(rule
+ (targets cfg.json cfg.txt tenv.json global.json)
+ (mode
+  (promote (until-clean)))
+ (deps
+  (glob_files *.cs)
+  Examples.csproj
+  ../cilsil/Cilsil
+  ../cilsil/Cilsil.deps.json
+  ../cilsil/Cilsil.runtimeconfig.json ; this file is important
+  (glob_files ../cilsil/*.dll))
+ (action
+  (progn
+   (run dotnet new globaljson --sdk-version 8.0.125 --force)
+   (run dotnet build -c Debug -p:DebugSymbols=true -p:DebugType=full)
+   (run
+    ../cilsil/Cilsil
+    translate
+    --debug
+    ./bin/Debug/netcoreapp3.1/Examples.dll)
+   (with-stdout-to
+    "tenv.json"
+    (run echo "[]"))
+   (pipe-stdout
+    (run jq . cfg.json)
+    (run sponge cfg.json)))
+  ;
+  ))

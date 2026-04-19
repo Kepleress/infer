@@ -1921,6 +1921,11 @@ end = struct
   (** return [(new_linear_equalities, phi ∧ atom)], where [new_linear_equalities] is [true] if
       [phi.linear_eqs] was changed as a result *)
   and and_normalized_atom (phi, new_eqs) atom =
+    L.progress "and_normalized_atom. atom = %a\n%!" (Atom.pp_with_pp_var Var.pp) atom ;
+    L.progress "  new_eqs = @[%a@]\n%!" pp_new_eqs new_eqs ;
+    if List.length (RevList.to_list new_eqs) > 30 then (
+      Logging.progress "Early exit\n%!" ;
+      Stdlib.exit 1 ) ;
     match Atom.var_terms_to_linear atom with
     | Atom.Equal (Linear _, Linear _) ->
         assert false

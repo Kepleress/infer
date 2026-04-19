@@ -1,0 +1,1874 @@
+{
+  "procs": {
+    "System.Int32 Main::foo(System.Int32,System.Int32)": {
+      "pd_id": 0,
+      "pd_attributes": {
+        "access": "Private",
+        "proc_name": {
+          "method_name": "foo",
+          "parameters": [
+            "System.Int32",
+            "System.Int32"
+          ],
+          "class_name": "Main",
+          "return_type": "System.Int32",
+          "is_static": true
+        },
+        "captured": [],
+        "exceptions": [],
+        "formals": [
+          {
+            "name": "x",
+            "type": {
+              "kind": "IInt",
+              "is_inst_return_type": false,
+              "type_kind": "Tint"
+            }
+          },
+          {
+            "name": "y",
+            "type": {
+              "kind": "IInt",
+              "is_inst_return_type": false,
+              "type_kind": "Tint"
+            }
+          }
+        ],
+        "method_annotations": {
+          "return_value": {
+            "annotations": []
+          },
+          "params": []
+        },
+        "const_formals": [],
+        "locals": [
+          {
+            "name": "%0",
+            "type": {
+              "kind": "IInt",
+              "is_inst_return_type": false,
+              "type_kind": "Tint"
+            },
+            "modify_in_block": false,
+            "is_const_expr": false
+          },
+          {
+            "name": "%1",
+            "type": {
+              "kind": "IInt",
+              "is_inst_return_type": false,
+              "type_kind": "Tint"
+            },
+            "modify_in_block": false,
+            "is_const_expr": false
+          }
+        ],
+        "is_abstract": false,
+        "is_bridge_method": false,
+        "is_defined": true,
+        "is_generated": false,
+        "is_obj_c_instance_method": false,
+        "is_synthetic_method": false,
+        "is_cpp_no_except_method": false,
+        "is_java_synchronized_method": false,
+        "is_c_sharp_synchronized_method": false,
+        "is_model": false,
+        "is_specialized": false,
+        "is_variadic": false,
+        "loc": {
+          "line": 5,
+          "col": 5,
+          "source_file": {
+            "path_type": "Relative",
+            "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+          }
+        },
+        "translation_unit": null,
+        "ret_type": {
+          "kind": "IInt",
+          "is_inst_return_type": false,
+          "type_kind": "Tint"
+        }
+      },
+      "pd_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "pd_start_node": 0,
+      "pd_exit_node": 1,
+      "pd_exn_node": 2
+    },
+    "System.Void Main::.ctor()": {
+      "pd_id": 1,
+      "pd_attributes": {
+        "access": "Public",
+        "proc_name": {
+          "method_name": ".ctor",
+          "parameters": [],
+          "class_name": "Main",
+          "return_type": "System.Void",
+          "is_static": false
+        },
+        "captured": [],
+        "exceptions": [],
+        "formals": [
+          {
+            "name": "this",
+            "type": {
+              "is_inst_return_type": false,
+              "kind": "Pk_pointer",
+              "type": {
+                "is_inst_return_type": false,
+                "struct_name": "Main",
+                "type_kind": "Tstruct"
+              },
+              "type_kind": "Tptr"
+            }
+          }
+        ],
+        "method_annotations": {
+          "return_value": {
+            "annotations": []
+          },
+          "params": []
+        },
+        "const_formals": [],
+        "locals": [],
+        "is_abstract": false,
+        "is_bridge_method": false,
+        "is_defined": true,
+        "is_generated": false,
+        "is_obj_c_instance_method": false,
+        "is_synthetic_method": false,
+        "is_cpp_no_except_method": false,
+        "is_java_synchronized_method": false,
+        "is_c_sharp_synchronized_method": false,
+        "is_model": false,
+        "is_specialized": false,
+        "is_variadic": false,
+        "loc": {
+          "line": 0,
+          "col": 0,
+          "source_file": {
+            "path_type": "Relative",
+            "path": ""
+          }
+        },
+        "translation_unit": null,
+        "ret_type": {
+          "is_inst_return_type": false,
+          "type_kind": "Tvoid"
+        }
+      },
+      "pd_nodes": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "pd_start_node": 20,
+      "pd_exit_node": 21,
+      "pd_exn_node": 22
+    }
+  },
+  "nodes": [
+    {
+      "nd_id": 0,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        1
+      ],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 5,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [],
+      "nd_succ_ids": [
+        3
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StartNode"
+    },
+    {
+      "nd_id": 1,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        11,
+        2
+      ],
+      "nd_succ_ids": [],
+      "nd_proc_id": 0,
+      "nd_kind": "ExitNode"
+    },
+    {
+      "stmt_node_kind": "ExceptionsSink",
+      "nd_id": 2,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        1
+      ],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 5,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [],
+      "nd_succ_ids": [
+        1
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 3,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 0
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "x",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        },
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 1
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "y",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        0
+      ],
+      "nd_succ_ids": [
+        4,
+        5
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "true_branch": true,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 4,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "Ge",
+            "left": {
+              "from_this": false,
+              "identifier": {
+                "kind": "Normal",
+                "name": "n",
+                "stamp": 0
+              },
+              "expr_kind": "VarExpression"
+            },
+            "right": {
+              "operator": "PlusA",
+              "left": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 1
+                },
+                "expr_kind": "VarExpression"
+              },
+              "right": {
+                "const_value": {
+                  "value": 1,
+                  "unsigned": false,
+                  "is_pointer": false
+                },
+                "kind": "Int",
+                "expr_kind": "ConstExpression"
+              },
+              "expr_kind": "BinopExpression"
+            },
+            "expr_kind": "BinopExpression"
+          },
+          "true_branch": true,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        3
+      ],
+      "nd_succ_ids": [
+        6
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "true_branch": false,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 5,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "LNot",
+            "expression": {
+              "operator": "Ge",
+              "left": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 0
+                },
+                "expr_kind": "VarExpression"
+              },
+              "right": {
+                "operator": "PlusA",
+                "left": {
+                  "from_this": false,
+                  "identifier": {
+                    "kind": "Normal",
+                    "name": "n",
+                    "stamp": 1
+                  },
+                  "expr_kind": "VarExpression"
+                },
+                "right": {
+                  "const_value": {
+                    "value": 1,
+                    "unsigned": false,
+                    "is_pointer": false
+                  },
+                  "kind": "Int",
+                  "expr_kind": "ConstExpression"
+                },
+                "expr_kind": "BinopExpression"
+              },
+              "expr_kind": "BinopExpression"
+            },
+            "type": null,
+            "expr_kind": "UnopExpression"
+          },
+          "true_branch": false,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        3
+      ],
+      "nd_succ_ids": [
+        13
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 6,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "lvalue": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%0",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "rvalue": {
+            "const_value": {
+              "value": 0,
+              "unsigned": false,
+              "is_pointer": false
+            },
+            "kind": "Int",
+            "expr_kind": "ConstExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Store"
+        },
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 2
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%0",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IBool",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        4,
+        14
+      ],
+      "nd_succ_ids": [
+        7,
+        8
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "true_branch": true,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 7,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "from_this": false,
+            "identifier": {
+              "kind": "Normal",
+              "name": "n",
+              "stamp": 2
+            },
+            "expr_kind": "VarExpression"
+          },
+          "true_branch": true,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        6
+      ],
+      "nd_succ_ids": [
+        9
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "true_branch": false,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 8,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "LNot",
+            "expression": {
+              "from_this": false,
+              "identifier": {
+                "kind": "Normal",
+                "name": "n",
+                "stamp": 2
+              },
+              "expr_kind": "VarExpression"
+            },
+            "type": null,
+            "expr_kind": "UnopExpression"
+          },
+          "true_branch": false,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 6,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        6
+      ],
+      "nd_succ_ids": [
+        12
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 9,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "lvalue": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%1",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "rvalue": {
+            "const_value": {
+              "value": 1,
+              "unsigned": false,
+              "is_pointer": false
+            },
+            "kind": "Int",
+            "expr_kind": "ConstExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 6,
+            "col": 48,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Store"
+        }
+      ],
+      "nd_loc": {
+        "line": 6,
+        "col": 48,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        7,
+        18
+      ],
+      "nd_succ_ids": [
+        10
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 10,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 3
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%1",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        9,
+        12
+      ],
+      "nd_succ_ids": [
+        11
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "ReturnStmt",
+      "nd_id": 11,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "lvalue": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "return",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "rvalue": {
+            "from_this": false,
+            "identifier": {
+              "kind": "Normal",
+              "name": "n",
+              "stamp": 3
+            },
+            "expr_kind": "VarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Store"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        10
+      ],
+      "nd_succ_ids": [
+        1
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 12,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "lvalue": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%1",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "rvalue": {
+            "const_value": {
+              "value": 0,
+              "unsigned": false,
+              "is_pointer": false
+            },
+            "kind": "Int",
+            "expr_kind": "ConstExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 7,
+            "col": 9,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Store"
+        }
+      ],
+      "nd_loc": {
+        "line": 7,
+        "col": 9,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        8,
+        19
+      ],
+      "nd_succ_ids": [
+        10
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 13,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 2
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "y",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        },
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 3
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "x",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        5
+      ],
+      "nd_succ_ids": [
+        14,
+        15
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "true_branch": true,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 14,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "Gt",
+            "left": {
+              "operator": "MinusA",
+              "left": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 2
+                },
+                "expr_kind": "VarExpression"
+              },
+              "right": {
+                "const_value": {
+                  "value": 1,
+                  "unsigned": false,
+                  "is_pointer": false
+                },
+                "kind": "Int",
+                "expr_kind": "ConstExpression"
+              },
+              "expr_kind": "BinopExpression"
+            },
+            "right": {
+              "from_this": false,
+              "identifier": {
+                "kind": "Normal",
+                "name": "n",
+                "stamp": 3
+              },
+              "expr_kind": "VarExpression"
+            },
+            "expr_kind": "BinopExpression"
+          },
+          "true_branch": true,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        13
+      ],
+      "nd_succ_ids": [
+        6
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "true_branch": false,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 15,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "LNot",
+            "expression": {
+              "operator": "Gt",
+              "left": {
+                "operator": "MinusA",
+                "left": {
+                  "from_this": false,
+                  "identifier": {
+                    "kind": "Normal",
+                    "name": "n",
+                    "stamp": 2
+                  },
+                  "expr_kind": "VarExpression"
+                },
+                "right": {
+                  "const_value": {
+                    "value": 1,
+                    "unsigned": false,
+                    "is_pointer": false
+                  },
+                  "kind": "Int",
+                  "expr_kind": "ConstExpression"
+                },
+                "expr_kind": "BinopExpression"
+              },
+              "right": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 3
+                },
+                "expr_kind": "VarExpression"
+              },
+              "expr_kind": "BinopExpression"
+            },
+            "type": null,
+            "expr_kind": "UnopExpression"
+          },
+          "true_branch": false,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        13
+      ],
+      "nd_succ_ids": [
+        16
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 16,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 4
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "y",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        },
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 5
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "x",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IInt",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        },
+        {
+          "lvalue": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%0",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "rvalue": {
+            "operator": "Eq",
+            "left": {
+              "operator": "Gt",
+              "left": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 4
+                },
+                "expr_kind": "VarExpression"
+              },
+              "right": {
+                "from_this": false,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 5
+                },
+                "expr_kind": "VarExpression"
+              },
+              "expr_kind": "BinopExpression"
+            },
+            "right": {
+              "const_value": {
+                "value": 0,
+                "unsigned": false,
+                "is_pointer": false
+              },
+              "kind": "Int",
+              "expr_kind": "ConstExpression"
+            },
+            "expr_kind": "BinopExpression"
+          },
+          "type": {
+            "kind": "IBool",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Store"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        15
+      ],
+      "nd_succ_ids": [
+        17
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 17,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 6
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": "foo",
+                "parameters": [
+                  "System.Int32",
+                  "System.Int32"
+                ],
+                "class_name": "Main",
+                "return_type": "System.Int32",
+                "is_static": true
+              },
+              "pv_name": "%0",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "kind": "IBool",
+            "is_inst_return_type": false,
+            "type_kind": "Tint"
+          },
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        16
+      ],
+      "nd_succ_ids": [
+        18,
+        19
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "true_branch": true,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 18,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "from_this": false,
+            "identifier": {
+              "kind": "Normal",
+              "name": "n",
+              "stamp": 6
+            },
+            "expr_kind": "VarExpression"
+          },
+          "true_branch": true,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        17
+      ],
+      "nd_succ_ids": [
+        9
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "true_branch": false,
+      "prune_node_kind": "MethodBody",
+      "if_kind": "Ik_if",
+      "nd_id": 19,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        2
+      ],
+      "nd_instrs": [
+        {
+          "condition": {
+            "operator": "LNot",
+            "expression": {
+              "from_this": false,
+              "identifier": {
+                "kind": "Normal",
+                "name": "n",
+                "stamp": 6
+              },
+              "expr_kind": "VarExpression"
+            },
+            "type": null,
+            "expr_kind": "UnopExpression"
+          },
+          "true_branch": false,
+          "if_kind": "Ik_if",
+          "location": {
+            "line": 8,
+            "col": 5,
+            "source_file": {
+              "path_type": "Relative",
+              "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+            }
+          },
+          "instruction_kind": "Prune"
+        }
+      ],
+      "nd_loc": {
+        "line": 8,
+        "col": 5,
+        "source_file": {
+          "path_type": "Relative",
+          "path": "/work/infer/_build/default/tests_cram/csharp2/Main.cs"
+        }
+      },
+      "nd_pred_ids": [
+        17
+      ],
+      "nd_succ_ids": [
+        12
+      ],
+      "nd_proc_id": 0,
+      "nd_kind": "PruneNode"
+    },
+    {
+      "nd_id": 20,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        21
+      ],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 0,
+        "col": 0,
+        "source_file": {
+          "path_type": "Relative",
+          "path": ""
+        }
+      },
+      "nd_pred_ids": [],
+      "nd_succ_ids": [
+        23
+      ],
+      "nd_proc_id": 1,
+      "nd_kind": "StartNode"
+    },
+    {
+      "nd_id": 21,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 0,
+        "col": 0,
+        "source_file": {
+          "path_type": "Relative",
+          "path": ""
+        }
+      },
+      "nd_pred_ids": [
+        24,
+        22
+      ],
+      "nd_succ_ids": [],
+      "nd_proc_id": 1,
+      "nd_kind": "ExitNode"
+    },
+    {
+      "stmt_node_kind": "ExceptionsSink",
+      "nd_id": 22,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        21
+      ],
+      "nd_instrs": [],
+      "nd_loc": {
+        "line": 0,
+        "col": 0,
+        "source_file": {
+          "path_type": "Relative",
+          "path": ""
+        }
+      },
+      "nd_pred_ids": [],
+      "nd_succ_ids": [
+        21
+      ],
+      "nd_proc_id": 1,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "MethodBody",
+      "nd_id": 23,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        22
+      ],
+      "nd_instrs": [
+        {
+          "identifier": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 0
+          },
+          "expression": {
+            "pvar": {
+              "proc_name": {
+                "method_name": ".ctor",
+                "parameters": [],
+                "class_name": "Main",
+                "return_type": "System.Void",
+                "is_static": false
+              },
+              "pv_name": "this",
+              "pv_kind": "LocalVariable"
+            },
+            "expr_kind": "LvarExpression"
+          },
+          "type": {
+            "is_inst_return_type": false,
+            "kind": "Pk_pointer",
+            "type": {
+              "is_inst_return_type": false,
+              "struct_name": "Main",
+              "type_kind": "Tstruct"
+            },
+            "type_kind": "Tptr"
+          },
+          "location": {
+            "line": 0,
+            "col": 0,
+            "source_file": {
+              "path_type": "Relative",
+              "path": ""
+            }
+          },
+          "instruction_kind": "Load"
+        }
+      ],
+      "nd_loc": {
+        "line": 0,
+        "col": 0,
+        "source_file": {
+          "path_type": "Relative",
+          "path": ""
+        }
+      },
+      "nd_pred_ids": [
+        20
+      ],
+      "nd_succ_ids": [
+        24
+      ],
+      "nd_proc_id": 1,
+      "nd_kind": "StatementNode"
+    },
+    {
+      "stmt_node_kind": "Call",
+      "stmt_node_comment": "System.Void System.Object::.ctor()",
+      "nd_id": 24,
+      "nd_temps": [],
+      "nd_dead_pvars_before": [],
+      "nd_dead_pvars_after": [],
+      "nd_exn_ids": [
+        22
+      ],
+      "nd_instrs": [
+        {
+          "return_var": {
+            "kind": "Normal",
+            "name": "n",
+            "stamp": 1
+          },
+          "return_type": {
+            "is_inst_return_type": false,
+            "type_kind": "Tvoid"
+          },
+          "function_expression": {
+            "const_value": {
+              "method_name": ".ctor",
+              "parameters": [],
+              "class_name": "System.Object",
+              "return_type": "System.Void",
+              "is_static": false
+            },
+            "kind": "Fun",
+            "expr_kind": "ConstExpression"
+          },
+          "args": [
+            {
+              "expression": {
+                "from_this": true,
+                "identifier": {
+                  "kind": "Normal",
+                  "name": "n",
+                  "stamp": 0
+                },
+                "expr_kind": "VarExpression"
+              },
+              "type": {
+                "is_inst_return_type": false,
+                "kind": "Pk_pointer",
+                "type": {
+                  "is_inst_return_type": false,
+                  "struct_name": "Main",
+                  "type_kind": "Tstruct"
+                },
+                "type_kind": "Tptr"
+              }
+            }
+          ],
+          "flags": {
+            "cf_virtual": false,
+            "cf_noreturn": false,
+            "cf_is_objc_block": false
+          },
+          "location": {
+            "line": 0,
+            "col": 0,
+            "source_file": {
+              "path_type": "Relative",
+              "path": ""
+            }
+          },
+          "instruction_kind": "Call"
+        }
+      ],
+      "nd_loc": {
+        "line": 0,
+        "col": 0,
+        "source_file": {
+          "path_type": "Relative",
+          "path": ""
+        }
+      },
+      "nd_pred_ids": [
+        23
+      ],
+      "nd_succ_ids": [
+        21
+      ],
+      "nd_proc_id": 1,
+      "nd_kind": "StatementNode"
+    }
+  ],
+  "priority_set": []
+}

@@ -1,0 +1,98 @@
+System.Int32 Main::foo(System.Int32,System.Int32)
+===============
+{
+ProcName: static System.Int32 Main.foo(System.Int32, System.Int32)
+Access: Private
+Formals: (x:int), (y:int)
+Location: Line 5
+Locals: { name= %0; typ= int; modify_in_block= False; is_constexp= False}, { name= %1; typ= int; modify_in_block= False; is_constexp= False}
+ReturnType: int
+MethodAnnotations: []
+}
+
+node0 preds:  succs: 3 exn: 1 StartNode
+
+node1 preds: 11 2 succs:  exn:  ExitNode
+
+node2 preds:  succs: 1 exn: 1 ExceptionsSink
+
+node3 preds: 0 succs: 4 5 exn: 2 MethodBody
+n$0=*&x_foo:int [Line 6];
+n$1=*&y_foo:int [Line 6];
+
+node4 preds: 3 succs: 6 exn: 2 MethodBody
+PRUNE (n$0 >= n$1 + 1, True) [Line 6];
+
+node5 preds: 3 succs: 13 exn: 2 MethodBody
+PRUNE (!(n$0 >= n$1 + 1):, False) [Line 6];
+
+node6 preds: 4 14 succs: 7 8 exn: 2 MethodBody
+*&%0_foo:int=0 [Line 6];
+n$2=*&%0_foo:bool [Line 6];
+
+node7 preds: 6 succs: 9 exn: 2 MethodBody
+PRUNE (n$2, True) [Line 6];
+
+node8 preds: 6 succs: 12 exn: 2 MethodBody
+PRUNE (!(n$2):, False) [Line 6];
+
+node9 preds: 7 18 succs: 10 exn: 2 MethodBody
+*&%1_foo:int=1 [Line 6];
+
+node10 preds: 9 12 succs: 11 exn: 2 MethodBody
+n$3=*&%1_foo:int [Line 8];
+
+node11 preds: 10 succs: 1 exn: 2 ReturnStmt
+*&return_foo:int=n$3 [Line 8];
+
+node12 preds: 8 19 succs: 10 exn: 2 MethodBody
+*&%1_foo:int=0 [Line 7];
+
+node13 preds: 5 succs: 14 15 exn: 2 MethodBody
+n$2=*&y_foo:int [Line 8];
+n$3=*&x_foo:int [Line 8];
+
+node14 preds: 13 succs: 6 exn: 2 MethodBody
+PRUNE (n$2 - 1 > n$3, True) [Line 8];
+
+node15 preds: 13 succs: 16 exn: 2 MethodBody
+PRUNE (!(n$2 - 1 > n$3):, False) [Line 8];
+
+node16 preds: 15 succs: 17 exn: 2 MethodBody
+n$4=*&y_foo:int [Line 8];
+n$5=*&x_foo:int [Line 8];
+*&%0_foo:bool=n$4 > n$5 == 0 [Line 8];
+
+node17 preds: 16 succs: 18 19 exn: 2 MethodBody
+n$6=*&%0_foo:bool [Line 8];
+
+node18 preds: 17 succs: 9 exn: 2 MethodBody
+PRUNE (n$6, True) [Line 8];
+
+node19 preds: 17 succs: 12 exn: 2 MethodBody
+PRUNE (!(n$6):, False) [Line 8];
+
+
+System.Void Main::.ctor()
+===============
+{
+ProcName: System.Void Main..ctor()
+Access: Public
+Formals: (this:Main*)
+Location: Line 0
+Locals: 
+ReturnType: void
+MethodAnnotations: []
+}
+
+node20 preds:  succs: 23 exn: 21 StartNode
+
+node21 preds: 24 22 succs:  exn:  ExitNode
+
+node22 preds:  succs: 21 exn: 21 ExceptionsSink
+
+node23 preds: 20 succs: 24 exn: 22 MethodBody
+n$0=*&this_.ctor:Main* [Line 0];
+
+node24 preds: 23 succs: 21 exn: 22 Call
+n$1:void=_fun System.Void System.Object..ctor() (n$0:Main*) [Line 0];
